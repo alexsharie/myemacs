@@ -2,8 +2,6 @@
 (require 'neotree)
 (global-set-key [f8] 'neotree-toggle)
 
-
-
 ;; 
 (require-package 'json-mode)
 (require-package 'js2-mode)
@@ -52,6 +50,10 @@
 
 ;;
 (set-face-foreground 'linum "#303030")
+(require 'highlight-current-line)
+(highlight-current-line-on t)
+(set-face-background 'highlight-current-line-face "#252525")
+;;(set-window-margins nil 1)
 
 ;;
 (provide 'init-local)
