@@ -1,4 +1,7 @@
 (add-to-list 'load-path "~/.emacs.d/vendor")
+(require 'sr-speedbar)
+
+;;
 (require 'neotree)
 (global-set-key [f8] 'neotree-toggle)
 
