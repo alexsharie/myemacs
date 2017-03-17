@@ -2,6 +2,8 @@
 (require 'neotree)
 (global-set-key [f8] 'neotree-toggle)
 
+(global-set-key [f4] 'indent-region)
+
 ;; 
 (require-package 'json-mode)
 (require-package 'js2-mode)
@@ -64,6 +66,20 @@
 (setq-default indent-tabs-mode nil)
 (setq js-indent-level 4)
 
+
+;;
+(require 'highlight-chars)
+(hc-toggle-highlight-tabs t)
+(hc-toggle-highlight-hard-spaces t)
+(hc-toggle-highlight-hard-hyphens t)
+(hc-toggle-highlight-trailing-whitespace t)
+
+;;
+(require 'fill-column-indicator)
+(setq fci-rule-width 1)
+(setq fci-rule-color "#601000")
+(define-globalized-minor-mode global-fci-mode fci-mode (lambda () (fci-mode 1)))
+(global-fci-mode 1)
 
 ;;
 (provide 'init-local)
