@@ -49,11 +49,21 @@
 
 
 ;;
-(set-face-foreground 'linum "#303030")
+(set-face-foreground 'linum "#404040")
 (require 'highlight-current-line)
 (highlight-current-line-on t)
 (set-face-background 'highlight-current-line-face "#252525")
 ;;(set-window-margins nil 1)
+
+
+;;
+(setq tab-width 4)
+(defvaralias 'c-basic-offset 'tab-width)
+(defvaralias 'cperl-indent-level 'tab-width)
+
+(setq-default indent-tabs-mode nil)
+(setq js-indent-level 4)
+
 
 ;;
 (provide 'init-local)

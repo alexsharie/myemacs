@@ -1,6 +1,6 @@
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
 (load-theme 'monokai t)
-;; (load-theme 'gruvbox t)
+;;(load-theme 'foggy-night t)
 
 ;; (require-package 'color-theme-sanityinc-solarized)
 ;; (require-package 'color-theme-sanityinc-tomorrow)
