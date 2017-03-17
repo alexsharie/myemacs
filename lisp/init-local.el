@@ -1,4 +1,4 @@
-(add-to-list 'load-path "~/.emacs.d/neotree")
+(add-to-list 'load-path "~/.emacs.d/vendor")
 (require 'neotree)
 (global-set-key [f8] 'neotree-toggle)
 
