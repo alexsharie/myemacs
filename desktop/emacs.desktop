@@ -1,0 +1,43 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Fri Mar 17 15:55:18 2017
+;; Desktop file format version 208
+;; Emacs version 25.1.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (22731 56502 181170 0) (desktop . "208") "daclip@Alexeys-MacBook-Pro-2.local" nil nil ((((tty-type . "xterm-256color") (tty . "/dev/tty") (display-type . color) (background-mode . dark) (foreground-color . "#F5F5F5") (background-color . "#1B1E1C") (tool-bar-lines . 0) (font . "tty") (height . 59) (width . 238) (modeline . t) (unsplittable) (menu-bar-lines . 1) (internal-border-width . 0) (frameset--id . "569F-34A1-AC33-DB91") (frameset--mini t) (minibuffer . t)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 4) (min-pixel-width . 10) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 4) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 238) (pixel-height . 58) (total-width . 238) (total-height . 58) (normal-height . 1.0) (normal-width . 1.0) (buffer "index.jade" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins 2) (scroll-bars nil 0 t nil 0 nil) (vscroll . 0) (dedicated) (point . 1518) (start . 1))))])
+(setq comint-input-ring nil)
+(setq compile-history nil)
+(setq desktop-missing-file-warning nil)
+(setq extended-command-history nil)
+(setq face-name-history nil)
+(setq file-name-history '("~/w2/dev/www/citytime/frontend-website/src/templates/index.jade" "~/w2/dev/current/cl_tacanada/retail/frontend/src/assets/templates/about/index.jade" "~/w2/dev/www/citytime/app-www/routes/www/index.js" "~/w2/dev/www/citytime/app-www/lib/models/Product.js" "~/w2/dev/www/citytime/app-www/lib/models/v2/Product2.js" "~/w2/dev/www/citytime/app-www/lib/models/ProductGroup.js" "~/w2/dev/www/citytime/app-www/lib/models/Setting.js" "~/w2/dev/www/redcanvas-v2/app-www/routes/api/v1/admin/settingsvalue.js" "~/w2/dev/www/redcanvas-v2/app-www/routes/api/v1/admin/settings.js" "~/w2/dev/www/redcanvas-v2/app-www/routes/api/v1/admin/product.js" "~/w2/dev/www/redcanvas-v2/app-www/routes/api/v1/admin/index.js" "~/w2/dev/15877358_1536975009649987_3582259069987061760_n.jpg" "~/.emacs.d/custom.el" "~/w2/citytime/app-www/lib/requtils.js" "~/w2/citytime/app-www/lib/models/Product.js" "~/w2/citytime/app-www/lib/models/v2/Product2.js" "~/w2/citytime/app-www/routes/www/realty.js" "~/w2/citytime/app-www/routes/www/presscenter.js" "~/w2/citytime/app-www/app.js" "~/w2/citytime/app-www/lib/models/NewsItem.js" "/home/ubuntu/w2/citytime/app-www/routes/www/#product.js#" "~/w2/citytime/app-www/routes/www/routes.js" "~/w2/citytime/app-www/lib/genuuid.js" "~/w2/citytime/app-www/lib/orm.js" "~/w2/citytime/app-www/lib/logger.js" "~/w2/citytime/app-www/routes/www/product.js" "~/w2/citytime/app-www/routes/www/index.js" "~/.emacs.d/elpa/spinner-1.7.3/spinner-autoloads.el" "~/w2/citytime/app-www/views/layouts/default.jade" "/home/ubuntu/w2/citytime/app-www/.idea/" "~/w2/citytime/app-www/.idea/codeStyleSettings.xml" "~/w2/citytime/app-www/worker-notify.js" "/home/ubuntu/w2/citytime/app-www/config/bootstrap.json"))
+(setq grep-find-history nil)
+(setq grep-history nil)
+(setq ivy-history '("schema.methods: setHrKey" "Function: schema);\n\n\n/*\n*/\nModel.setChilds" "Function: this.props.price_pm*this.props.square;\n});\n\nschema.methods.s" "Function: res.locals.userLogined" "Function: req.SETTINGS.getValue" "Number.prototype: format" "Function: };\n};\n\nNumber.prototype.format" "Array.prototype: last" "Model: setChilds" "test1" "Model.s: mms" "a" "nu" "q, res {}" "ProductGroup" "sp" "for" "case" "rr {}" "product.js"))
+(setq minibuffer-history nil)
+(setq query-replace-history nil)
+(setq read-expression-history nil)
+(setq regexp-history nil)
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq search-ring '("files"))
+(setq shell-command-history nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/Users/daclip/w2/dev/www/citytime/frontend-website/src/templates/index.jade"
+  "index.jade"
+  'jade-mode
+  '(anzu-mode global-auto-revert-mode undo-tree-mode whole-line-or-region-mode hes-mode whitespace-cleanup-mode auto-compile-on-load-mode linum-mode immortal-scratch-mode projectile-mode guide-key-mode company-mode ivy-mode counsel-mode flycheck-mode)
+  1518
+  '(1518 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
