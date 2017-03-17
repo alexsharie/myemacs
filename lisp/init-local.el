@@ -26,7 +26,12 @@
 ;; 
 (global-auto-complete-mode t)
 (global-linum-mode t)
+(setq linum-format "%d ")
+
+
+;;
 (global-set-key [f9] 'imenu)
+
 
 ;; 
 (add-to-list 'load-path "~/.emacs.d/vendor")
