@@ -1,0 +1,124 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Sat Mar 18 01:04:24 2017
+;; Desktop file format version 206
+;; Emacs version 24.5.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (22732 31112 379972 831000) (desktop . "206") "dev@hidev01" nil nil ((((tty-type . "xterm-256color") (tty . "/dev/tty") (display-type . color) (background-mode . dark) (foreground-color . "#F5F5F5") (cursor-color . "#F5F5F5") (background-color . "#1B1E1C") (mouse-color . "#F5F5F5") (tool-bar-lines . 0) (vertical-scroll-bars) (font . "tty") (height . 64) (width . 238) (modeline . t) (unsplittable) (menu-bar-lines . 1) (internal-border-width . 0) (frameset--id . "62DC-9D38-C63C-72A8") (frameset--mini t) (minibuffer . t)) ((min-height . 4) (min-width . 20) (min-height-ignore . 2) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 4) (min-pixel-width . 20) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 4) (min-pixel-height-safe . 1) (min-pixel-width-safe . 4)) hc (pixel-width . 238) (pixel-height . 62) (total-width . 238) (total-height . 62) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 119) (pixel-height . 62) (total-width . 119) (total-height . 62) (normal-height . 1.0) (normal-width . 0.5) (buffer "Product.js" (selected) (hscroll . 0) (fringes 0 0 nil) (margins 3) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 286) (start . 1))) (leaf (last . t) (pixel-width . 119) (pixel-height . 62) (total-width . 119) (total-height . 62) (normal-height . 1.0) (normal-width . 0.5) (buffer "User.js" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins 3) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 82) (start . 1)))))])
+(setq comint-input-ring nil)
+(setq compile-history nil)
+(setq desktop-missing-file-warning nil)
+(setq dired-regexp-history nil)
+(setq extended-command-history '("^desktop" "^js2-" "^pack" "^inde" "^unta" "^js2-h" "^inden" "tab" "^" "^tab" "^ori" "^origa" "^or" "packa"))
+(setq face-name-history nil)
+(setq file-name-history '("/home/dev/.emacs.d/" "~/.emacs.d/elpa/outline-magic-20150209.1426/outline-magic-autoloads.el" "~/w2/current/citytime/app-www/lib/models/User.js" "~/w2/current/citytime/app-www/lib/models/v2/.#Product2.js" "~/w2/current/citytime/app-www/lib/models/Product.js" "/home/dev/w2/current/citytime/" "~/w2/current/citytime/frontend-admin/assets/js/main.js" "~/w2/current/citytime/frontend-website/src/templates/chapters/product/views/#product__childs.jade#" "~/w2/current/citytime/app-www/app.js" "/home/dev/w2/current/citytime/frontend-website/src/templates/" "~/w2/current/citytime/frontend-website/assets/images/backgrounds/1095043.jpg" "~/w2/current/citytime/frontend-website/src/templates/index.jade" "~/w2/current/citytime/frontend-website/src/styles/include/transitions.scss" "~/w2/current/citytime/frontend-website/src/styles/main/layout-cardlist.scss" "/home/dev/w2/current/citytime/frontend-website/src/templates/chapters/pages/template-default.jade" "/home/dev/w2/current/citytime/frontend-website/src/styles/main/global/" "~/w2/current/citytime/frontend-website/src/styles/main/global/behaviour.scss" "~/.emacs.d/lisp/init-local.el" "~/.config/mc/#ini#" "~/.config/mc/ini" "~/w2/current/citytime/app-www/routes/www/product.js" "~/w2/current/citytime/app-www/lib/models/v2/Product2.js" "~/.emacs.d/org-clock-save.el" "~/.emacs.d/elpa/regex-tool-20170104.1118/regex-tool-autoloads.el" "~/.emacs.d/elpa/dsvn-20130120.1257/dsvn-autoloads.el" "~/.emacs.d/elpa/htmlize-20161211.1019/htmlize-autoloads.el" "~/.emacs.d/elpa/lua-mode-20170130.435/lua-mode-autoloads.el" "~/.emacs.d/elpa/gnuplot-20141231.1337/gnuplot-autoloads.el" "~/.emacs.d/elpa/flycheck-ledger-20140605.1146/flycheck-ledger-autoloads.el" "~/.emacs.d/elpa/ledger-mode-20170310.1705/ledger-mode-autoloads.el" "~/.emacs.d/elpa/origami-20170129.805/origami-autoloads.el" "~/.emacs.d/elpa/flycheck-clojure-20170221.1354/flycheck-clojure-autoloads.el" "~/.emacs.d/elpa/cider-20170310.735/cider-autoloads.el" "~/.emacs.d/elpa/queue-0.1.1/queue-autoloads.el" "~/.emacs.d/elpa/spinner-1.7.3/spinner-autoloads.el" "~/.emacs.d/elpa/elein-20120120.316/elein-autoloads.el" "~/.emacs.d/elpa/cljsbuild-mode-20160402.1000/cljsbuild-mode-autoloads.el" "~/.emacs.d/elpa/clojure-mode-20170303.2310/clojure-mode-autoloads.el" "~/.emacs.d/elpa/slime-company-20161229.743/slime-company-autoloads.el" "~/.emacs.d/elpa/hippie-expand-slime-20170317.0/hippie-expand-slime-autoloads.el" "~/.emacs.d/elpa/slime-20170209.1240/slime-autoloads.el" "~/.emacs.d/elpa/cask-mode-20160410.749/cask-mode-autoloads.el" "~/.emacs.d/elpa/flycheck-package-20161111.1451/flycheck-package-autoloads.el" "~/.emacs.d/elpa/package-lint-20170305.2112/package-lint-autoloads.el" "~/.emacs.d/elpa/highlight-quoted-20140916.1122/highlight-quoted-autoloads.el" "~/.emacs.d/elpa/macrostep-20161120.1306/macrostep-autoloads.el" "~/.emacs.d/elpa/cl-lib-highlight-20140127.1312/cl-lib-highlight-autoloads.el" "~/.emacs.d/elpa/aggressive-indent-20170314.1428/aggressive-indent-autoloads.el" "~/.emacs.d/elpa/redshank-20120510.1230/redshank-autoloads.el" "~/.emacs.d/elpa/immortal-scratch-20160517.1418/immortal-scratch-autoloads.el" "~/.emacs.d/elpa/hl-sexp-20101130.443/hl-sexp-autoloads.el" "~/.emacs.d/elpa/auto-compile-20170130.1017/auto-compile-autoloads.el" "~/.emacs.d/elpa/packed-20170314.1340/packed-autoloads.el" "~/.emacs.d/elpa/ipretty-20140406.2220/ipretty-autoloads.el" "~/.emacs.d/elpa/lively-20160208.1035/lively-autoloads.el" "~/.emacs.d/elpa/elisp-slime-nav-20160128.1109/elisp-slime-nav-autoloads.el" "~/.emacs.d/elpa/paredit-everywhere-20150821.2144/paredit-everywhere-autoloads.el" "~/.emacs.d/elpa/paredit-20160615.1325/paredit-autoloads.el" "~/.emacs.d/elpa/sql-indent-20170112.1507/sql-indent-autoloads.el" "~/.emacs.d/elpa/projectile-rails-20170315.730/projectile-rails-autoloads.el" "~/.emacs.d/elpa/rake-20161114.605/rake-autoloads.el" "~/.emacs.d/elpa/rinari-20150708.2340/rinari-autoloads.el" "~/.emacs.d/elpa/jump-20161126.1728/jump-autoloads.el" "~/.emacs.d/elpa/findr-20130824.507/findr-autoloads.el" "~/.emacs.d/elpa/inflections-20161126.1727/inflections-autoloads.el" "~/.emacs.d/elpa/yaml-mode-20170213.1023/yaml-mode-autoloads.el" "~/.emacs.d/elpa/bundler-20160815.215/bundler-autoloads.el" "~/.emacs.d/elpa/goto-gem-20140729.1145/goto-gem-autoloads.el" "~/.emacs.d/elpa/yari-20151127.2339/yari-autoloads.el" "~/.emacs.d/elpa/robe-20170316.511/robe-autoloads.el" "~/.emacs.d/elpa/ruby-compilation-20150708.2340/ruby-compilation-autoloads.el" "~/.emacs.d/elpa/inf-ruby-20170212.1444/inf-ruby-autoloads.el" "~/.emacs.d/elpa/rspec-mode-20170312.56/rspec-mode-autoloads.el" "~/.emacs.d/elpa/ruby-hash-syntax-20141010.839/ruby-hash-syntax-autoloads.el" "~/.emacs.d/elpa/flycheck-elm-20160717.257/flycheck-elm-autoloads.el" "~/.emacs.d/elpa/elm-mode-20161210.49/elm-mode-autoloads.el" "~/.emacs.d/elpa/hayoo-20140831.521/hayoo-autoloads.el" "~/.emacs.d/elpa/hindent-20160905.243/hindent-autoloads.el" "~/.emacs.d/elpa/intero-20170313.2358/intero-autoloads.el" "~/.emacs.d/elpa/haskell-mode-20170228.730/haskell-mode-autoloads.el" "~/.emacs.d/elpa/company-anaconda-20160809.705/company-anaconda-autoloads.el" "~/.emacs.d/elpa/anaconda-mode-20170313.343/anaconda-mode-autoloads.el" "~/.emacs.d/elpa/pythonic-20160221.1123/pythonic-autoloads.el" "~/.emacs.d/elpa/pip-requirements-20160930.2032/pip-requirements-autoloads.el" "~/.emacs.d/elpa/css-eldoc-20150124.1923/css-eldoc-autoloads.el" "~/.emacs.d/elpa/skewer-less-20160828.1321/skewer-less-autoloads.el" "~/.emacs.d/elpa/less-css-mode-20160930.2153/less-css-mode-autoloads.el" "~/.emacs.d/elpa/scss-mode-20150107.1400/scss-mode-autoloads.el" "~/.emacs.d/elpa/sass-mode-20161006.2326/sass-mode-autoloads.el" "~/.emacs.d/elpa/haml-mode-20170208.28/haml-mode-autoloads.el" "~/.emacs.d/elpa/rainbow-mode-0.12/rainbow-mode-autoloads.el" "~/.emacs.d/elpa/tagedit-20161121.55/tagedit-autoloads.el" "~/.emacs.d/elpa/tidy-20111222.956/tidy-autoloads.el" "~/.emacs.d/elpa/org-pomodoro-20161119.226/org-pomodoro-autoloads.el" "~/.emacs.d/elpa/org-cliplink-20160819.900/org-cliplink-autoloads.el" "~/.emacs.d/elpa/org-fstree-20090723.819/org-fstree-autoloads.el" "~/.emacs.d/elpa/smarty-mode-20100703.458/smarty-mode-autoloads.el" "~/.emacs.d/elpa/php-mode-20170307.1750/php-mode-autoloads.el" "~/.emacs.d/elpa/skewer-mode-20170122.938/skewer-mode-autoloads.el" "~/.emacs.d/elpa/simple-httpd-20170125.1910/simple-httpd-autoloads.el"))
+(setq grep-find-history nil)
+(setq grep-history nil)
+(setq ido-buffer-history nil)
+(setq ido-last-directory-list nil)
+(setq ido-work-directory-list nil)
+(setq ido-work-file-list nil)
+(setq ivy-history '("outline" "user" "app-www/lib/models/v2/.#Product2.js" "async" "*scratch*" "main.js" "child" "product" "prod" "product.js" "defa" "a" "product2" "filter" "child_" "B"))
+(setq minibuffer-history nil)
+(setq query-replace-history nil)
+(setq read-expression-history nil)
+(setq regexp-history nil)
+(setq regexp-search-ring nil)
+(setq register-alist '((48 . "\n */\nvar getSalt = function() {\n    return Math.random() + '';\n")))
+(setq search-ring '("emacs"))
+(setq shell-command-history nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/dev/w2/current/citytime/app-www/lib/models/User.js"
+  "User.js"
+  'js2-mode
+  '(anzu-mode global-auto-revert-mode undo-tree-mode whole-line-or-region-mode hes-mode whitespace-cleanup-mode inferior-js-keys-mode auto-compile-on-load-mode auto-complete-mode linum-mode immortal-scratch-mode projectile-mode guide-key-mode company-mode ivy-mode counsel-mode flycheck-mode goto-address-prog-mode paredit-everywhere-mode bug-reference-prog-mode diff-hl-mode highlight-symbol-mode rainbow-delimiters-mode indent-guide-mode tern-mode)
+  82
+  '(82 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/dev/w2/current/citytime/app-www/lib/models/v2/.#Product2.js"
+  ".#Product2.js"
+  'js2-mode
+  '(anzu-mode global-auto-revert-mode undo-tree-mode whole-line-or-region-mode hes-mode whitespace-cleanup-mode inferior-js-keys-mode auto-compile-on-load-mode auto-complete-mode linum-mode immortal-scratch-mode projectile-mode guide-key-mode company-mode ivy-mode counsel-mode flycheck-mode goto-address-prog-mode paredit-everywhere-mode bug-reference-prog-mode diff-hl-mode highlight-symbol-mode rainbow-delimiters-mode indent-guide-mode tern-mode)
+  1
+  '(nil nil)
+  t
+  nil
+  '((truncate-lines . t)))
+
+(desktop-create-buffer 206
+  nil
+  "models"
+  'dired-mode
+  '(anzu-mode global-auto-revert-mode whole-line-or-region-mode hes-mode whitespace-cleanup-mode auto-compile-on-load-mode linum-mode immortal-scratch-mode projectile-mode guide-key-mode company-mode ivy-mode counsel-mode diff-hl-dired-mode)
+  671
+  '(nil nil)
+  t
+  '("/home/dev/w2/current/citytime/app-www/lib/models/")
+  '((truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/dev/w2/current/citytime/app-www/lib/models/Product.js"
+  "Product.js"
+  'js2-mode
+  '(anzu-mode global-auto-revert-mode undo-tree-mode whole-line-or-region-mode hes-mode whitespace-cleanup-mode inferior-js-keys-mode auto-compile-on-load-mode auto-complete-mode linum-mode immortal-scratch-mode projectile-mode guide-key-mode company-mode ivy-mode counsel-mode flycheck-mode goto-address-prog-mode paredit-everywhere-mode bug-reference-prog-mode diff-hl-mode highlight-symbol-mode rainbow-delimiters-mode indent-guide-mode tern-mode js2-highlight-vars-mode)
+  286
+  '(373 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  nil
+  "lib"
+  'dired-mode
+  '(anzu-mode global-auto-revert-mode whole-line-or-region-mode hes-mode whitespace-cleanup-mode auto-compile-on-load-mode linum-mode immortal-scratch-mode projectile-mode guide-key-mode company-mode ivy-mode counsel-mode diff-hl-dired-mode)
+  389
+  '(nil nil)
+  t
+  '("/home/dev/w2/current/citytime/app-www/lib/")
+  '((truncate-lines . t)))
+
+(desktop-create-buffer 206
+  nil
+  "app-www"
+  'dired-mode
+  '(anzu-mode global-auto-revert-mode whole-line-or-region-mode hes-mode whitespace-cleanup-mode auto-compile-on-load-mode linum-mode immortal-scratch-mode projectile-mode guide-key-mode company-mode ivy-mode counsel-mode diff-hl-dired-mode)
+  622
+  '(nil nil)
+  t
+  '("/home/dev/w2/current/citytime/app-www/")
+  '((truncate-lines . t)))
+
+(desktop-create-buffer 206
+  nil
+  "citytime"
+  'dired-mode
+  '(anzu-mode global-auto-revert-mode whole-line-or-region-mode hes-mode whitespace-cleanup-mode auto-compile-on-load-mode linum-mode immortal-scratch-mode projectile-mode guide-key-mode company-mode ivy-mode counsel-mode diff-hl-dired-mode)
+  367
+  '(nil nil)
+  t
+  '("/home/dev/w2/current/citytime/")
+  '((truncate-lines . t)))
+
+(desktop-create-buffer 206
+  nil
+  "current"
+  'dired-mode
+  '(anzu-mode global-auto-revert-mode whole-line-or-region-mode hes-mode whitespace-cleanup-mode auto-compile-on-load-mode linum-mode immortal-scratch-mode projectile-mode guide-key-mode company-mode ivy-mode counsel-mode diff-hl-dired-mode)
+  204
+  '(nil nil)
+  t
+  '("/home/dev/w2/current/")
+  '((truncate-lines . t)))
+

@@ -70,9 +70,18 @@
 (setq tab-width 4)
 (defvaralias 'c-basic-offset 'tab-width)
 (defvaralias 'cperl-indent-level 'tab-width)
+(defvaralias 'preferred-javascript-indent-level 'tab-width)
 
 (setq-default indent-tabs-mode nil)
 (setq js-indent-level 4)
+(setq jade-indent-level 4)
+(setq jade-indent 4)
+(setq jade-mode-indent-level 4)
+(setq-default tab-width 4)
+
+(setq tab-width 4)
+(setq tab-stop-list '(4 8 12 16 20 24 28 32 36 40 44 48 52 56 60 64 68 72 76 80))
+(setq indent-tabs-mode nil)
 
 
 ;;
@@ -88,6 +97,45 @@
 (setq fci-rule-color "#601000")
 (define-globalized-minor-mode global-fci-mode fci-mode (lambda () (fci-mode 1)))
 (global-fci-mode 1)
+
+
+;;
+(menu-bar-mode -1)
+(setq make-backup-files		nil)
+(setq auto-save-list-file-name	nil)
+(setq auto-save-default		nil)
+
+
+;;
+(require 'company)
+(require 'company-web-html)
+(require 'company-web-jade)
+;(define-key web-mode-map (kbd "C-'") 'company-web-html)
+(setq company-tooltip-limit 20)                      ; bigger popup window
+(setq company-tooltip-align-annotations 't)          ; align annotations to the right tooltip border
+(setq company-idle-delay .1)                         ; decrease delay before autocompletion popup shows
+(setq company-begin-commands '(self-insert-command)) ; start autocompletion only after typing
+(global-set-key (kbd "C-c /") 'company-files) 
+
+(ac-config-default)
+(setq auto-complete-mode t)
+(define-key ac-mode-map (kbd "TAB") 'auto-complete)
+(ac-set-trigger-key "TAB")
+(setq ac-quick-help-delay 0.2)
+(setq ac-show-menu-immediately-on-auto-complete)
+(setq ac-use-quick-help)
+(setq ac-auto-start 't)
+(setq ac-ignore-case)
+(setq ac-use-fuzzy)
+(setq ac-use-comphist)
+(global-auto-complete-mode t)
+(auto-complete-mode t)
+
+(setq ac-auto-show-menu    0.2)
+(setq ac-delay             0.2)
+(setq ac-menu-height       20)
+(setq ac-auto-start t)
+(setq ac-show-menu-immediately-on-auto-complete t)
 
 ;;
 (provide 'init-local)
