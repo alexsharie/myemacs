@@ -130,12 +130,34 @@
 (setq ac-use-comphist)
 (global-auto-complete-mode t)
 (auto-complete-mode t)
+(setq ac-auto-start 1)
+(setq ac-dwim t)
 
 (setq ac-auto-show-menu    0.2)
 (setq ac-delay             0.2)
 (setq ac-menu-height       20)
 (setq ac-auto-start t)
 (setq ac-show-menu-immediately-on-auto-complete t)
+
+
+(custom-set-variables
+ '(ac-sources
+   '(
+     ;ac-source-filename
+     ac-source-files-in-current-dir
+     ;ac-source-words-in-buffer
+     ac-source-words-in-same-mode-buffers
+     ;ac-source-yasnippet
+     ;ac-source-words-in-all-buffer
+     ;ac-source-gtags
+     ;ac-source-imenu
+     ;ac-source-abbrev
+     ;ac-source-semantic
+     ;ac-source-semantic-raw
+     ;ac-source-ropemacs
+     ;ac-source-symbols
+     )))
+
 
 ;;
 (provide 'init-local)
