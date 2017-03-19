@@ -4,8 +4,9 @@
 ;;
 (require 'neotree)
 (global-set-key [f8] 'neotree-toggle)
-
 (global-set-key [f4] 'indent-region)
+(global-set-key [f5] 'js-doc-insert-function-doc)
+
 
 ;; 
 (require-package 'json-mode)
@@ -30,7 +31,7 @@
 
 
 ;;
-(global-set-key [f9] 'imenu)
+(global-set-key [f9] 'popup-imenu)
 
 
 ;; 
